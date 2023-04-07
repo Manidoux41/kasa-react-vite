@@ -2,7 +2,7 @@ import React from 'react'
 
 function Lodging() {
   return (
-    <div>Lodging</div>
+    <div className='lodging'>Lodging</div>
   )
 }
 
