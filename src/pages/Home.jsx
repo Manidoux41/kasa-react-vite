@@ -6,6 +6,9 @@ function Home() {
   return (
     <div className='home'>
       <Banner picban={imageBanner1} titleBanner='Chez vous, partout et ailleurs' />
+      <div className="cards">
+        
+      </div>
     </div>
   )
 }
