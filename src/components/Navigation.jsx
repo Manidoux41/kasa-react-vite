@@ -5,7 +5,7 @@ import logoHeader from "../assets/logo.png";
 function Navigation() {
   return (
     <div className="header">
-      <NavLink className="header__logo">
+      <NavLink className="header__logo" to='/'>
         <img src={logoHeader} alt="logo" />
       </NavLink>
       <nav>
