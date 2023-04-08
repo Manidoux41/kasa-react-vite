@@ -11,10 +11,20 @@
        width:340px;
        height: 340px;
     } 
+    &:hover {
+        img {
+            filter: brightness(0.95);
+        }
+        h3 {
+            color: $lightcolor;
+        }
+    }
     img {
-        filter: brightness(0.75);
+        filter: brightness(0.65);
     }
     h3 {
+        font-size: 18px;
+        font-weight: $mainFontWeight;
         position: absolute;
         left: 19px;
         bottom: 15px;
