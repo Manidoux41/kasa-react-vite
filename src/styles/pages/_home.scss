@@ -2,16 +2,17 @@
 
 .cards {
     width: 100%;
-    height: 100vh;
-    margin-top: 22px;
+    min-height:255px;
+    margin: 22px auto;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 20px;
     @media screen and (min-width: 991px) {
         background: $lightBlue;
         margin-top: 3px;
         padding: 56px 50px;
-        justify-content: space-between;
+        flex-direction: row;
         gap: 60px;
         border-radius: 25px;
     }
