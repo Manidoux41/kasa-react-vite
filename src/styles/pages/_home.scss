@@ -1,20 +1,25 @@
-@use '../utils/' as *;
+@use "../utils/" as *;
 
 .cards {
-    width: 100%;
-    min-height:255px;
-    margin: 22px auto;
+  width: 100%;
+  min-height: 255px;
+  margin: 22px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+
+  @media screen and (min-width: 991px) {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    
-    @media screen and (min-width: 991px) {
-        background: $lightBlue;
-        margin-top: 3px;
-        padding: 56px 50px;
-        flex-direction: row;
-        gap: 60px;
-        border-radius: 25px;
-    }
+  }
+  @media screen and (min-width: 1240px) {
+    background: $lightBlue;
+    margin-top: 3px;
+    padding: 56px 50px 36px 50px;
+    border-radius: 25px;
+  }
 }

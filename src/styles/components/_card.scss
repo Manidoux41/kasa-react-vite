@@ -8,9 +8,13 @@
     overflow: hidden;
     cursor: pointer;
     @media screen and (min-width: 991px) {
-       width:340px;
+       width:48%;
        height: 340px;
+       margin-bottom: 25px;
     } 
+    @media screen and (min-width: 1240px) {
+        width: 340px;
+    }
     &:hover {
         img {
             filter: brightness(0.95);
