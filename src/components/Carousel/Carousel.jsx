@@ -21,7 +21,7 @@ function Carousel({picProps}) {
         <img src={picProps[indexPic]} alt="" />
       <img src={rightArrow} alt="" className="rightArrow" onClick={incrementUp} />
       <p className="counter">
-        1 / 3
+        {indexPic+1} / {picProps.length}
       </p>
     </div>
   )
